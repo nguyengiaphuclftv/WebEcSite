@@ -1,0 +1,169 @@
+.container_car_detail {
+  position: relative;
+}
+
+.header_car_detail {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 40px;
+  float: right;
+}
+
+.header_car_detail-cart {
+  float: right;
+  margin-right: 416px;
+}
+
+.header_car_detail i {
+  font-size: 24px;
+  line-height: 40px;
+  color: black;
+}
+
+.header_car_detail-cart i {
+  position: relative;
+}
+
+.header_car_detail-cart span {
+  position: absolute;
+  width: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 3px;
+  right: 408px;
+  top: 4px;
+  border-radius: 100%;
+  border: 1px solid #d3d3d3;
+}
+
+.car_detail_content {
+  position: relative;
+  top: 40px;
+  left: 400px;
+  width: 620px;
+}
+
+.back-to-list {
+  margin-bottom: 30px;
+}
+
+.back-to-list a i {
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+  color: black;
+}
+
+.back-to-list span {
+  font-size: 18px;
+  margin-left: 18px;
+}
+
+.car_detail_img {
+  width: 100%;
+}
+.car_detail_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.car_detail_info-name h1 {
+  font-size: 24px;
+}
+
+.car_detail_info-brand h4 {
+  margin: 10px 0 14px;
+  font-weight: 500;
+}
+
+.car_detail_info-price span {
+  line-height: 60px;
+  font-size: 28px;
+}
+
+.car_detail-des {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car_detail-des h4 {
+  width: 65%;
+  font-weight: 500;
+}
+
+.car_detail-quantity {
+  font-size: 30px;
+}
+
+.car_detail-quantity i {
+  padding: 0 14px;
+  color: black;
+  margin-top: 30px;
+}
+
+.car_detail-add-to-cart {
+  width: 100%;
+  background-color: black;
+  height: 30px;
+}
+
+.car_detail-add-to-cart a {
+  color: white;
+  line-height: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive  */
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .header_car_detail-cart {
+    margin-right: 10px;
+  }
+  .header_car_detail-cart span {
+    right: 3px;
+  }
+  .car_detail_content {
+    left: 0px;
+    width: 100%;
+  }
+  .car_detail-quantity {
+    margin-top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+    /* For mobile: */
+  .car_detail_content {
+    top: 14px;
+  }
+
+  .car_detail-quantity {
+    font-size: 24px;
+  }
+
+  .car_detail-quantity i {
+    padding: 0 5px;
+    margin-right: 2px;
+  }
+
+  .car_detail-des {
+    height: 190px;
+  }
+
+  .car_detail-add-to-cart {
+    height: 76px;
+  }
+
+  .car_detail-add-to-cart a {
+    position: fixed;
+    bottom: 23px;
+    font-size: 36px;
+  }
+}
