@@ -98,6 +98,20 @@
   font-size: 30px;
 }
 
+.car_detail-quantity button{
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.car_detail-quantity input{
+  width: 40px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+}
+
 .car_detail-quantity i {
   padding: 0 14px;
   color: black;

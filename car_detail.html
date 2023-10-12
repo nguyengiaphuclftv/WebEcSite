@@ -30,10 +30,12 @@
           <div class="back-to-list">
             <a href="#">
               <i class="fa-solid fa-circle-arrow-left"></i>
-            </`a>
+            </a>
             <span>Back to list</span>
           </div>
-          <img class="car_detail_img" src="assets/image/car.jpg" />
+          <a href="assets/image/car.jpg">
+            <img class="car_detail_img" src="assets/image/car.jpg" />
+          </a>
           <div class="car_detail_info">
             <div class="car_detail_info-name-brand">
               <div class="car_detail_info-name">
@@ -56,16 +58,17 @@
               origin of its name.
             </h4>
             <div class="car_detail-quantity">
-              <a href="#"><i class="fa-solid fa-circle-minus"></i></a>
-              <span>1</span>
-              <a href="#"><i class="fa-solid fa-circle-plus"></i></a>
+              <button onclick="handleMinus()"><i class="fa-solid fa-circle-minus"></i></button>
+              <input type="text" value="1" id="amount">
+              <button onclick="handlePlus()"><i class="fa-solid fa-circle-plus"></i></button>
             </div>
           </div>
           <div class="car_detail-add-to-cart">
-            <a href="#">ADD TO CART</a>
+            <a onclick="addToCart()" href="#">ADD TO CART</a>
           </div>
         </div>
       </main>
     </div>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
